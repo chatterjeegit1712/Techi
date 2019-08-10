@@ -1,0 +1,312 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+/*
+font-family: 'Roboto', sans-serif;
+font-family: 'Source Sans Pro', sans-serif;
+*/
+
+
+* {font-family: 'Roboto', sans-serif;}
+h1,h2,h3,h4,h5,h6 {font-family: 'Source Sans Pro', sans-serif;}
+
+
+::placeholder {
+  color: #fff;
+  opacity: 1; /* Firefox */
+}
+
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+ color: #fff;
+}
+
+::-ms-input-placeholder { /* Microsoft Edge */
+ color: #fff;
+}
+
+
+header {background:#451771;padding: 8px 0px;}
+.btn-srachicon {border: none;background: none;cursor: pointer;background-image: url(../images/searchicon.png);background-repeat: no-repeat;width: 30px;background-position: left center;}
+.btn-srachicon:focus {outline: 0;}
+.logo {width:80px;}
+.logo img {width:100%;}
+.search_bar {background:#4f2194; display:inline-block;margin-left: 30px;padding: 8px 15px;}
+.search_bar .search_icon {position:relative;}
+
+.search_icon {position: relative; background:none; border:0px; width:20px; height:20px;}
+.search_icon:before{content: "\f002";font-family: FontAwesome;font-style: normal;font-weight: normal;text-decoration: inherit;color: #fff;font-size: 18px;padding-right: 0.5em;position: absolute;top: 10px;left: 0;right:0px;}
+.search_input {background:none; border:0px;color:#fff; text-transform:uppercase;font-size: 12px;font-weight: 500;}
+.search_input:focus {outline: 0 !important;}
+.Techie_logo_navbar_section .navbar-brand.logo-text {font-weight: 500;font-size: 22px;color: #fff;text-decoration: none;}
+
+
+/**/
+.Techie_logo_navbar_section header nav ul.navbar-nav li a {color: #fff;font-size: 13px;margin-left: 25px;text-transform: uppercase;font-weight: 500;}
+.Sign_in_button {padding: 10px 25px !important;background: #4f2194;}
+.Techie_logo_navbar_section header nav ul.navbar-nav{-webkit-box-align: center !important;-ms-flex-align: center !important;align-items: center !important;}
+
+.Techie_Hot_selling_courses_banner{background: #131231;}
+.Techie_Hot_selling_courses_banner ul li a span img {width: 100%;height: 100%;object-fit: fill;}
+.Techie_Hot_selling_courses_banner ul li a span {padding-right: 10px;width: 30px;height: 23px;}
+.Techie_Hot_selling_courses_banner ul li a {color: #fff;text-decoration: none;display: flex;align-items: center;}
+.Techie_Hot_selling_courses_banner_content{display: flex;flex-wrap: wrap;-webkit-box-align: center !important;-ms-flex-align: center !important;align-items: center !important;padding: 20px 0px;justify-content: center;}
+.Techie_Hot_selling_courses_banner_content h4 {font-size: 14px;color: #fff;margin-bottom: 0;margin-right: 1rem;text-transform: uppercase;}
+.Techie_Hot_selling_courses_banner ul li {display: inline-block;padding-left: 30px;color: #fff;font-size: 13px;font-weight: 500;}
+.Techie_Hot_selling_courses_banner ul {display: flex;align-items: center;flex-wrap: wrap;margin-bottom: 0px;}
+.discount_rate {padding-left: 30px;}
+
+/*Superb Quality Starts Here*/
+.Techi_quality_section {padding: 50px 0px;}
+.Techie_superb_quality_heading_section {background: #451771 !important;box-shadow: inset 0 -3px 0 #2b0e47 !important;padding:50px 30px;text-align: center;border-radius: 15px;position: relative;}
+.Techie_superb_quality_heading_section .Techie_superb_quality_heading_section_logo a{width: 80px;display: inline-block;}
+.Techie_superb_quality_heading_section .Techie_superb_quality_heading_section_logo img{width: 100%;}
+.Techi_quality_section h1 {font-size: 2.3rem;color: #fff;letter-spacing: 1.2;font-family: 'Source Sans Pro', sans-serif;font-weight: 700;margin-bottom: 0px;padding-bottom: 25px;}
+.Techi_quality_section h5 {font-size: 1.3rem;color: #fff;letter-spacing: 1.2;font-weight: 500;margin-bottom: 0px;padding-bottom: 35px;margin-bottom: 30px;}
+.Techie_superb_quality_heading_section_logo {padding-bottom: 25px;}
+.Techie_superb_quality_heading_section .see_courses_button {padding: 14px 25px;background: #ce1f99 !important;/*box-shadow: inset 0 -3px 0 #a21878 !important;**/color: #fff;text-transform: uppercase;font-size: 15px;text-decoration: none;font-weight: 500;}
+/*Superb Quality Ends Here*/
+
+
+/*Next Step In your Carrer Starts Here*/
+.Techie_Next_step_starts_here {padding: 50px 0px;}
+.Techie_Next_step_starts_here h2{font-weight: 600;font-size: 15px;color: #333742;letter-spacing: 1.5px;position: relative;text-transform: uppercase;}
+
+.Techie_Next_step_starts_here h2::before{
+content: ' ';background: #ff585c;box-shadow: 0px 4px 8px 0px rgba(255,88,91,0.30);width: 44px;height: 4px;position: absolute;bottom: -15px;border-radius: 20px;left: 50%;transform: translateX(-50%);-webkit-transform: translateX(-50%);-ms-transform: translateX(-50%);}
+
+.Techie_Next_step_starts_here .inner_thumb_image {width: 100%; height: 195px;box-shadow: rgba(122, 187, 191, 0.24) 0px 4px 24px 0px;margin-bottom: 30px;}
+.Techie_Next_step_starts_here .inner_thumb_image img {width: 100%;height:auto;object-fit: cover;}
+.inner_thumb_section {width: 280px;position: relative;}
+.Techie_Next_step_starts_here .inner_thumb_section .inner_thumb_content {text-transform: uppercase;font-size: 14px;font-weight: 500;}
+.embed-responsive {height: 100%;}
+.margin_settings_third {margin-left: auto;}
+.margin_settings_second {margin-left: auto;margin-right: auto;}
+.svg_arro_second {position: absolute;z-index: 99999;top: 32%;right: -112px;width: 90px;height: 40px;}
+.svg_arro_second img {width: 100%;height: 100%;}
+.lets_talk_btn {background: #4f2194;text-transform: uppercase;color: #fff !important;font-weight: 500;font-size: 15px;padding: 13px 26px;letter-spacing: 1.3px;}
+.lets_talk_btn:hover{text-decoration: none;}
+/*Next Step In your Carrer Ends Here*/
+
+
+/*Trending Courses Starts Here*/
+.bootstrap-select.btn-group .dropdown-toggle .filter-option {font-size: 14px;padding-top: 3px;}
+.Techie_trending_courses {padding: 50px 0px;background: #f4f4f4;background-image: url(../images/taylormade.png);background-repeat: no-repeat;background-position: center center;}
+.Techie_trending_courses h2{font-weight: 600;font-size: 15px;color: #333742;letter-spacing: 1.5px;position: relative;text-transform: uppercase;}
+.Techie_trending_courses h2::before {content: ' ';background: #ff585c;box-shadow: 0px 4px 8px 0px rgba(255,88,91,0.30);width: 44px;height: 4px;position: absolute;bottom: -15px;border-radius: 20px;left: 20px;transform: translateX(-50%);-webkit-transform: translateX(-50%);-ms-transform: translateX(-50%);}
+.Techie_trending_courses label {font-weight: 700;font-size: 12px;color: #333;padding-right: 20px;text-transform: uppercase;}
+.bootstrap-select.btn-group > .dropdown-toggle {background: #fff;}
+.techi_trending_courses_list {background: #fff;box-shadow: 0px 1px 0px 0px rgba(36,38,47,0.10), 0px 4px 6px 0px rgba(0,0,0,0.06);border-radius: 3px;height: 100%;display: block;text-decoration: none;text-align: center;position: relative;}
+
+.techi_trending_courses_list:hover {box-shadow: 0 1px 0 0 rgba(36, 38, 47, 0.1), 0 8px 12px 0 rgba(0,0,0,0.18);
+cursor: pointer;}
+.techi_trending_courses_list .course-image {display: flex;height: 70px;justify-content: center;width: 70px;border-radius: 3px;position: relative;overflow: hidden;background-color: #fff;align-items: center;margin: auto;padding: 60px 0px 80px;}
+.techi_trending_courses_list .course-image span img {width: 100%;height: 100%;object-fit: cover;}
+.techi_trending_courses_list .course-list-detail {padding: 0px 25px;}
+.techi_trending_courses_list .course-list-detail h4 {
+font-weight: 400;font-size: 16px;color: #1b1d28;line-height: 20px;padding-top: 0px;height: 70px;display: block;}
+.techi_trending_courses_list .course-list-detail p {font-size: 15px;color: #999;line-height: 20px;display: block;font-weight: 300;}
+.techi_trending_courses_list .more_courses_box {font-size: 16px;font-weight: 700;color: #333;text-transform: uppercase;
+letter-spacing: 2px;}
+.techi_trending_courses_list .more_courses_box strong {font-size: 24px;display: block;line-height: 32px;}
+.techi_trending_courses_list .course-list-detail a.more {color: #ff585c;font-size: 12px;font-weight: 700;text-transform: uppercase;width: 100%;margin-bottom: 0px;padding-top: 20px;} 
+.select_courses_category {text-align: right;}
+/*Trending Courses Ends Here*/
+
+
+
+/*Students join starts here*/
+.techie_students_join_section {background: #f5f8fa;}
+.techie_students_join_section .Techie_students_details{background: background-color: #fff;-webkit-box-shadow: 2px 4px 8px 0 rgba(46, 61, 73, 0.11);box-shadow: 2px 4px 8px 0 rgba(46, 61, 73, 0.11);text-align: center;margin-top: 60px;padding-bottom: 20px;}
+.lazyload__loaded img{height: 100%;object-fit: cover;width: 100%;}
+.lazyload__loaded {position: relative;height: 100%;overflow: hidden;}
+.ProgramPlacements__list__photoImg {background-color: #fff;border-radius: 50%;overflow: hidden;width: 75px;height: 75px;margin-bottom: 12px;margin-left: auto;margin-right: auto;display: inline-block;margin-top: -33px;}
+.student_name {font-size: 14px;color: #101010;font-weight: 400;margin-bottom: 12px;text-align: center;}
+.company_name img {width: 100%;height: 100%;object-fit: contain;}
+.company_name {width: 150px;height: 50px;margin: auto;}
+/*Students join ends here*/
+
+
+/*Browse By category starts here*/
+.category_panel {background: #fff;border: 1px solid #ddd;border-radius: 2px;}
+.category_panel_body {padding: 15px;}
+.category_panel_body a{text-decoration: none;display: flex;}
+.category_panel .panel_image {margin-right: 15px;width: 30px;height: 30px;}
+.category_panel .panel_image img {width: 100%;height: 100%;object-fit: cover;}
+.category_panel .category_panel_body .category_panel_name {height: 32px;line-height: 32px;overflow: hidden;text-overflow: ellipsis;white-space: nowrap;flex: 1;min-width: 1px;color: #171717;text-decoration: none;font-weight: 500;font-size: 15px;}
+/*Browse By category ends here*/
+
+
+/*newsletter_techei starts*/
+.newsletter_techei {background: url(../images/dark-wave.png);background-repeat: no-repeat;background-size: cover;background-position: center;
+background-size: 100% 100%;padding: 5rem 2rem;height: 400px;display: flex;justify-content: center;align-items: center;}
+.newsletter_techei h3 {color: #fff;font-size: 1.3rem;text-transform: capitalize;text-align: center;padding-bottom: 2.5rem;font-weight: 700;}
+.newsletter_techei .newsltter_anchor_button {color: #fff;font-size: 14px;text-transform: uppercase;text-align: center;text-decoration: none;padding: 15px 30px;background: #4f2194;font-weight: 500;}
+.newsletter_techei .width {max-width: 500px;width: 100%;}
+/*newsletter_techei ends here*/
+
+
+/*Blogs Section Starts here*/
+.blog_listing_thumnail {background-color: #fff;box-shadow: 0px 1px 0px 0px rgba(36,38,47,0.10), 0px 4px 6px 0px rgba(0,0,0,0.06);margin-bottom: 30px;border: 1px solid rgba(0,0,0,.125);}
+.blog_thumb_image {height: 170px;width: 100%;position: relative;margin-bottom: 20px;}
+.blog_thumb_image a img {width: 100%;height: 100%;object-fit: cover;}
+.cat_name {font-size: 15px;color: #a8aaaa;font-weight: 300;letter-spacing: 0.8px;padding-bottom: 10px;}
+.thumb_info {padding: 0px 20px;}
+.thumb_info h6 {margin-top: 0px !important; font-size: 16px;margin-top: 20px;font-weight: 600;color: #333;letter-spacing: 0.5px;line-height: 1.33;display: block;margin-bottom: 20px;}
+.thumb_info p {font-size: 14px;font-weight: 400;line-height: 1.2;color: #7d7f80;line-height: 1.7;letter-spacing: 0.8px;padding-bottom: 10px;}
+.view_all_blog_btn {background: #ff585c;box-shadow: 0px 4px 8px 0px rgba(255,88,91,0.30);width: 44px;color: #fff;padding: 11px 20px;text-decoration: none;font-weight: 500;text-transform: uppercase;font-size: 14px;}
+.view_all_blog_btn:hover {text-decoration: none;color: #fff;}
+/*Blogs Section ends Here*/
+
+
+
+/*footer strats here*/
+.footer_section {background: #232636;padding: 60px 0px;}
+.footer_section h4 {font-weight: 700;font-size: 12px;color: #fff;letter-spacing: 1.5px;text-transform: uppercase;margin-bottom: 23px;margin-bottom: 25px;}
+.footer_section ul li {display: inline-block;padding-right: 14px;}
+
+
+.btn-newsletter {border: none;background: none;cursor: pointer;background-image: url(../images/right-arrow-newsletter.png);background-repeat: no-repeat;width: 30px;background-position: left center;position: absolute;right: -7px;top: 6px;}
+.news_input {background-color: transparent !important;border: 1px solid #383b52 !important;border-radius: 3px;
+height: 35px;color: #fff !important;font-size: 12px;padding: 0 35px 0 12px;padding-left: 12px;line-height: 34px;box-shadow: none !important;
+padding-left: 12px !important;width: 100%;text-transform: uppercase;}
+.news_input:focus {outline: 0 !important;}
+.form_newsletter {width: 210px;position: relative;}
+/*footer ends here*/
+
+/*particle js starts*/
+#particles-js {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: 9;
+    top: 0;
+    left: 0;
+}
+.hovericonsliding {position: relative;padding-bottom: 1.6rem;}
+.hoverarrow {opacity: 0;visibility: hidden;right: 60%;transition: 0.4s all;position: absolute;}
+.techi_trending_courses_list:hover .hoverarrow {opacity: 1;visibility: visible;right: 10%;}
+.bootstrap-select.btn-group .dropdown-menu a.dropdown-item {font-size: 14px;}
+.bs-searchbox .form-control {height: 30px;}
+.navbar-toggler-icon{background: url(../images/round-menu-white-24px.svg);background-repeat: no-repeat;background-size: cover;transition: .2s ease-in-out opacity,.2s ease-in-out transform;}
+.navbar-toggler:focus{outline: 0 !important;}
+.z-index-99 {z-index: 99;}
+/*particle js endss*/
+
+
+
+/*-------Courses page design starts-------*/
+
+.View_all_courses_section {padding: 50px 0px;background: #f4f4f4;}
+.View_all_courses_section .each_courses_section h2::before{content: ' ';background: #ff585c;box-shadow: 0px 4px 8px 0px rgba(255,88,91,0.30);width: 44px;height: 4px;position: absolute;bottom: -15px;border-radius: 20px;left: 20px;transform: translateX(-50%);-webkit-transform: translateX(-50%);-ms-transform: translateX(-50%);}
+.View_all_courses_section .each_courses_section h2{font-weight: 600;font-size: 15px;color: #333742;letter-spacing: 1.5px;position: relative;
+text-transform: uppercase;font-family: 'Roboto', sans-serif;display: inline-block;}
+.agile_count {border: 1px solid #d1d1d1;border-radius: 100px;width: 40px;height: 25px;font-weight: 700;font-size: 12px;color: #676767;padding: 2px 7px;text-align: left;margin-left: 16px;}
+.each_courses_section {padding: 20px 0px;}
+.Courses_modules {margin-bottom: 35px;}
+.rotaing_dropdown_arrow {background: #fff;border: 1px solid rgba(0,0,0,0.15);box-shadow: 0px 2px 4px 0px rgba(0,0,0,0.04);border-radius: 3px;width: 30px;height: 30px;text-align: center;color: #999;position: relative;transition: all 0.5s ease 0s;}
+#accordion .card .card-header h5 {font-weight: 700;font-size: 14px;color: #333742;letter-spacing: 1.5px;line-height: 30px;font-family: 'Roboto', sans-serif;text-transform: uppercase;display: flex;justify-content: space-between;}
+.rotaing_dropdown_arrow:focus {box-shadow: none !important;}
+.rotaing_dropdown_arrow img {position: absolute;left: 34%;top: 45%;transform: rotate(-180deg);-webkit-transform: rotate(-180deg);-ms-transform: rotate(-180deg);transition: all 0.5s ease 0s;}
+.rotaing_dropdown_arrow.collapsed img {transform: rotate(0deg);-webkit-transform: rotate(0deg);-ms-transform: rotate(0deg);}
+.filer_menu_sidebar {background: #fff;box-shadow: 0px 1px 0px 0px rgba(36,38,47,0.10), 0px 4px 6px 0px rgba(0,0,0,0.06);border-radius: 3px;margin-bottom: 30px;}
+#accordion .card-header {background: transparent;border-bottom: none !important;padding: 26px !important;}
+#accordion .card {border: none !important;}
+.filtermenu_categories > li {border-left: 4px solid transparent;padding: 0px 25px;}
+.filtermenu_categories > li:hover {background-color: #fafafa;border-color: #ff585c;}
+.filtermenu_categories li > a {line-height: 47px;border-bottom: 1px solid #eaeaea;color: #676767;padding: 10px 10px 10px 0px;display: block;font-size: 14px;font-weight: 400;text-transform: capitalize;text-decoration: none;position: relative;}
+.filtermenu_categories li > a span {border: 1px solid #d9d9d9;border-radius: 100px;font-size: 12px;font-weight: 700;height: 23px;line-height: 20px;position: absolute;right: 2px;text-align: center;top: 50%;transform: translateY(-50%);-webkit-transform: translateY(-50%);-ms-transform: translateY(-50%);width: 38px;color: #676767;}
+.filtermenu_categories li:hover > a span {background-color: #ff585c;color: #fff;border-color: #ff585c;}
+.filer_menu_sidebar .card-body {padding: 0 !important;}
+.drop_query {padding: 26px;}
+.drop_query .drop_query_heading{font-size: 14px;color: #333742;letter-spacing: 1.5px;position: relative;text-transform: uppercase;line-height: 18px;font-weight: 700;font-family: 'Roboto', sans-serif;}
+.drop_query .drop_query_heading::before {content: ' ';background: #ff585c;box-shadow: 0px 4px 8px 0px rgba(255,88,91,0.30);width: 44px;height: 4px;position: absolute;bottom: -15px;border-radius: 20px;}
+.drop_query_form .form_group {min-height: 50px;}
+.drop_query_form {margin: 50px 0px;}
+.drop_query_form .form-group .form-control {background-color: transparent;
+background-image: linear-gradient(#a84848, #a84848), linear-gradient(#eaeaec, #eaeaec);background-position: center bottom, center calc(100% - 1px);background-repeat: no-repeat;background-size: 0 2px, 100% 1px;border: 0 none;border-radius: 0;box-shadow: none;float: none;font-weight: 400;transition: background 0s ease-out 0s;padding: 10px 70px 10px 5px;}
+.drop_query_form .form-group label {color: #1b1d28;font-size: 14px;font-weight: 400;position: absolute;pointer-events: none;left: 5px;right: auto;top: 11px;}
+.form-group {position: relative;opacity: 0.67;}
+.drop_query_form .form-group .form-control:focus {background-image: linear-gradient(#a84848, #a84848), linear-gradient(#eaeaec, #eaeaec);
+background-size: 100% 2px, 100% 1px;box-shadow: none;outline: medium none;transition-duration: 0.3s;}
+.drop_query_form .form-group input:focus ~ label {right: 5px;left: auto;font-size: 12px;font-weight: 700;color: #ec151a;opacity: 1;}
+.drop_query_form .form-group .custom-select {border: 0;border-bottom: 1px solid #eaeaea;border-radius: 0px;font-size: 14px;color: #1b1d28;padding-left: 0 !important;}
+.drop_query_form .form-group .custom-select:focus{box-shadow: none !important;}
+.textarea {resize: none;font-size: 14px;}
+textarea::placeholder {color: #1b1d28 !important;} 
+.drop_query_submit_btn {width: 100%;-webkit-transition: all 0.3s ease-out;-moz-transition: all 0.3s ease-out;-o-transition: all 0.3s ease-out;-ms-transition: all 0.3s ease-out;transition: all 0.3s ease-out;box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0,0,0,0.12);background: #ff585c;border-radius: 3px;height: 44px;font-weight: 700;font-size: 12px;color: #fff !important;letter-spacing: 0px;text-transform: uppercase;border: 0 none;padding: 14px 15px 16px 15px;line-height: 14px;text-decoration: none;display: block;text-align: center;margin-top: 40px;}
+.drop_query_submit_btn:hover {box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0,0,0,0.15);text-decoration: none;}
+.mobile_filter_menu {border-bottom: 1px solid #e1e1e3;color: #333742;font-size: 14px;display: flex;align-items: center;justify-content: space-between;margin-bottom: 20px;padding: 20px 0px;}
+.filter_toggle_btn {background: #ff585c;border-radius: 3px;height: 32px;width: 100px;line-height: 32px;font-weight: 700;font-size: 14px;color: #fff !important;letter-spacing: 0px;text-align: center;border: 0;cursor: pointer;position: relative;text-decoration: none;}
+#filter_toggle_btn{-webkit-transition: all .3s linear 0s;transition: all .3s linear 0s;}
+.filter_toggle_btn span {position: absolute;left: 10px;}
+.visible_filter {display: block !important;}
+.usefull_links .usefull_links_heading h3 {font-weight: 600;font-size: 15px;color: #333742;letter-spacing: 1.5px;position: relative;padding: 15px 0;text-transform: uppercase;line-height: 18px;font-family: 'Roboto', sans-serif;}
+.usefull_links .usefull_links_heading h3::before {content: ' ';background: #ff585c;box-shadow: 0px 4px 8px 0px rgba(255,88,91,0.30);width: 44px;height: 4px;position: absolute;bottom: -15px;border-radius: 20px;left: 50%;transform: translateX(-50%);-webkit-transform: translateX(-50%);-ms-transform: translateX(-50%);}
+.usefull_links .specialized_in {margin-top: 30px;}
+.specialized_in li {margin-top: 3px;display: inline-block;}
+.specialized_in li a {background-color: #fff;display: block;margin-bottom: 10px;padding: 8px 18px;text-transform: capitalize;line-height: 13px;border: 1px solid #cfcfcf;
+box-shadow: 0px 1px 2px 0px rgba(0,0,0,0.04);border-radius: 3px;font-size: 12px;color: #999;text-align: left;transition-duration: 0.3s;}
+.specialized_in li a:hover{text-decoration: none;background-color: #ff585c;color: #fff;border: 1px solid #ff585c;}
+.usefull_links {margin-top: 60px;}
+/*-------Courses page design ends---------*/
+
+
+/*loader*/
+.body{
+            height: 100%;position: fixed;left: 0;right: 0;z-index: 9999999999999;
+            display: flex;align-items: center;justify-content: center;background: #451771;
+        }
+        .loader{
+            position: relative;display: flex;
+        }
+        .loader span{
+            display: block;width: 15px;height: 15px;background: #fff;border-radius: 50%;margin: 0px 5px;box-shadow: 0 px 2px rgba(0,0,0,0.2);
+        }
+        
+        .loader span:not(:last-child) {
+            animation: animate 1s linear infinite;
+        }
+        
+        .loader span:last-child {
+            animation: jump 1s ease-in-out infinite;
+        }
+        @keyframes animate 
+        {
+        
+            0% {
+                transform: translateX(0px);
+            }
+            100% {
+                transform: translateX(30px);
+            }
+        }
+        @keyframes jump 
+        {
+        
+            0% {
+                transform: translate(0,0);
+            }
+            10% {
+                transform: translate(10px,-10px);
+            }
+            20% {
+                transform: translate(20px,10px);
+            }
+            30% {
+                transform: translate(30px,-50px);
+            }
+            70% {
+                transform: translate(-150px,-50px);
+            }
+            80% {
+                transform: translate(-140px,-10px);
+            }
+            90% {
+                transform: translate(-130px,-10px);
+            }
+            100% {
+                transform: translateX(-120px,0);
+            }
+        }
+

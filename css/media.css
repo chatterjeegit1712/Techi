@@ -1,0 +1,63 @@
+@media only screen and (min-width:767px) {.mobile_filter_menu {display: none;} }
+@media only screen and (max-width:1200px) {
+    .svg_arro_second {display: none;}
+    .search_bar {padding-right: 0px;}
+    .Techie_logo_navbar_section .navbar-brand.logo-text {font-size: 18px;}
+    .search_input {width: 70%;}
+}
+@media only screen and (max-width:992px) {
+    .footer_section ul li span img {
+        padding-bottom: 14px;
+    }
+    .margin_settings_third {margin-left: 0;}
+    .margin_settings_first {margin-bottom: 45px;}
+    .margin_settings_second {margin-bottom: 45px;}
+
+.navbar-collapse {background: #240840;width: 250px;height: 100vh;position: absolute;right: -250px;top: 56px;
+-webkit-transition: right 0.25s ease;-moz-transition: right 0.25s ease;-ms-transition: right 0.25s ease;-o-transition: right 0.25s ease;
+transition: right 0.25s ease;margin: 0;border: 0;border-radius: 0;overflow-y: auto;overflow-x: hidden;z-index: 999999999;-webkit-box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.26);
+-moz-box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.26);
+-ms-box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.26);
+-o-box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.26);
+box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.26);
+border-radius: 3px;}
+.collapse.show {right: 0px;-webkit-transition: right 0.25s ease;-moz-transition: right 0.25s ease;-ms-transition: right 0.25s ease;
+-o-transition: right 0.25s ease;transition: right 0.25s ease;}
+.navbar-collapse ul li a { padding: 11px 20px !important;border-bottom: 1px solid #09070c;display: block;margin: 0px !important;}
+.navbar-collapse ul li {width: 100%;}    
+}
+@media only screen and (max-width:767px) {
+    .footer_section {
+        text-align: center;
+    }
+    .footer_connect_section.padding_responsive {
+        padding-bottom: 3rem;
+        padding-top: 3rem;
+    }
+    .footer_connect_section .form_newsletter {
+        margin: auto;
+    }
+    .select_courses_category {
+        text-align: center;
+        padding: 40px 0px 10px;
+    }
+    .Techie_trending_courses h2 {text-align: center;}
+    .Techie_trending_courses h2::before {left: 50%;}
+    .Techie_trending_courses label {width: 100%;}
+    .margin_settings_first {margin: 0 auto 45px;}
+    .margin_settings_second {margin: 0 auto 45px;}
+    .margin_settings_third {margin: 0 auto;}
+    .Techie_Hot_selling_courses_banner_content ul {margin: 15px 0px;}
+    .Techie_Hot_selling_courses_banner_content {margin-left: -15px;margin-right: -15px;}
+    .Techie_Hot_selling_courses_banner ul li {padding: 15px 30px;flex-basis: 50%;border: 1px solid rgba(255,0,255,0.2);}
+    .discount_rate {padding-left: 0px;}
+    .Techie_Hot_selling_courses_banner_content h4 {width: 100%;text-align: center;}
+    .search_bar {background: #222240;position: absolute;top: 265px;left: 0;right: 0;margin-left: 0;padding: 10px 33px;display: flex;}
+    .Techi_quality_section {margin-top: 30px;}
+    header {padding: 0px;}
+    .filter_desktop_show {display: none;}
+    .usefull_links {margin-top: 30px;}
+}
+@media only screen and (max-width:575px) {
+    .height_responsive {height: 300px !important;}
+}
